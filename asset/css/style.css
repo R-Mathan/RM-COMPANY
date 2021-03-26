@@ -1,0 +1,360 @@
+body{
+    color: #4d4643;
+}
+.container{
+    max-width: 1360px;
+}
+
+/* HEADER */
+
+#header{
+    background-color: #fff;
+    padding: 10px 0px;
+}
+#header h2{
+    font-weight: bolder;
+}
+#header h2 span{
+    color:  #1bbd36;
+}
+#header li a{
+    padding-left: 20px;
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+}
+#header .active{
+    color: #1bbd36;
+}
+#header .nav-link:hover{
+    color: #1bbd36;
+}
+#header .social-link {
+    color: #c4c4c4;
+    margin-left: 20px;
+    border-left: 1px solid #c4c4c4;
+}
+#header .social-link i{
+    font-size: 1rem;
+    padding-left: 10px;
+}
+#header .social-link i:hover{
+    color: #1bbd36;
+}
+#header .dropdown-item{
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+#header .dropdown-item:hover{
+    color: #1bbd36;
+    background: none;
+}
+#header .dropdown-menu{
+    padding: 12px 33px 10px 0px;
+    line-height: 28px;
+    box-shadow: 0px 0px 6px -1px #767e77;   
+    border-top: 3px solid #1bbd36;
+}
+
+/* BANNER */
+
+.carousel-item{
+    height: 750px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* ABOUT */
+
+#about ul, p {
+    color: #4d4643;
+    font-size: 16px;
+    line-height: 27px;
+    font-family: "Open Sans", sans-serif;
+}
+#about li{
+    line-height: 30px;
+    list-style: none;
+}
+#about li i{
+    position: absolute;
+    left: 26px;
+    margin-top: 10px;
+    color:  #1bbd36;
+}
+#about h1{
+    font-weight: bolder;
+    line-height: 55px;
+}
+#about h4{
+    line-height: 35px;
+}
+
+/* SERVICE */
+
+#service{
+    padding: 50px 0px;
+    background-color: #f7f7f7;
+}
+#service .service-box{
+    background-color: #fff;
+    padding: 70px 10px;
+    line-height: 100px; 
+    box-shadow: 0px 2px 12px rgb(0 0 0 / 8%);
+}
+#service .service-box h4{ 
+    padding-bottom: 20px; 
+}
+#service .service-box i{ 
+    color: #1bbd36;
+    font-size: 28px;
+    padding: 16px;
+    border: 1px solid #1bbd36; 
+}
+#service .service-box i:hover{ 
+    background-color: #1bbd36;
+    color: #fff;
+}
+
+/* CLIENT */
+
+#client .client-logo img{
+    color: #4d4643;
+    width: 100px;
+    padding: 10px;
+}
+#client h2::after{
+    content: '';
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin: 20px 0 30px;
+    background: #1bbd36;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+#client .client-logo{
+    border: 1px solid #b59f953b;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 0;
+    filter: grayscale(100%);
+}
+#client .client-logo:hover{
+    filter: none;
+    transition: 500ms;
+}
+
+
+/* FOOTER */
+
+#footer{
+    padding: 60px 0 30px 0;
+    background: #1e1e1e;
+}
+#footer h4{
+    font-size: 22px;
+    color: #fff;
+}
+#footer h6{
+    font-size: 16px;
+    color: #fff;
+}
+#footer li{
+    list-style-type: none;
+}
+#footer li i{
+    color: #1bbd36;
+    position: relative;
+    right: 9px;
+    font-size: 12px;
+}
+#footer li ,#footer p{
+    font-size: 14px;
+    color: #ffffffb3
+}
+#footer ul{
+    padding-left: 14px;
+    line-height: 36px;  
+}
+#footer .text{
+    padding: 6px;
+    width: 75%;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#footer .btn{
+    width: 25%;
+    margin-left: -8px;
+    background-color: #1bbd36;
+    border-top-left-radius: unset;
+    border-bottom-left-radius: unset;
+}
+
+/* LEGAL */
+
+#legal{
+    color: #fff;
+    font-size: 14px;
+    background: #111;
+}
+#legal i{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0px 3px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #ffffff14;
+}
+#legal i:hover{
+    background-color: #1bbd36;
+}
+
+
+/* BREAD-CRUMB */
+
+#breadcrumb{
+    background-color: #1bbd36;
+    color: #fff;
+    margin-top: 72px;
+    padding: 12px 0px;
+}
+#breadcrumb h2{
+    font-weight: lighter;
+}
+#breadcrumb .breadcrumb{
+    background-color: unset;
+    padding: 0;
+    margin: 0;
+}
+#breadcrumb a,#breadcrumb li,#breadcrumb ::before{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* TEAM */
+#team {
+    background-color: #f7f7f7;
+    padding: 40px 0px 50px;
+}
+#team h2{
+    color: #222;
+    margin: 0 auto;
+    font-weight: bolder;
+}
+#team h2::after{
+    content: '';
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin: 20px 0 30px;
+    background: #1bbd36;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+#team .card-deck{
+    padding-top: 30px;
+}
+#team .text-muted{
+    font-size: 13px;
+}
+#team h5{
+    color: #222;
+    margin-bottom: 3px;
+}
+#team .card-body{
+    padding: 12px 0px;
+}
+
+/* SKILLS */
+
+#skills{
+    padding: 50px 0;
+}
+#skills h2{
+    color: #222;
+    margin: 0 auto;
+    font-weight: bolder;
+}
+#skills h2::after{
+    content: '';
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin: 20px 0 30px;
+    background: #1bbd36;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+#skills p{
+    margin: 0;
+    padding-bottom: 2px;
+}
+#skills .section p ,#skills span{
+    font-size: 11px;
+    font-weight: bold;
+}
+#skills .section{
+    padding: 10px 0;
+}
+#skills .progress-bar{
+    background-color: #1bbd36;
+}
+#skills .progress{
+    height: 12px;
+    border-radius: unset;
+}
+
+/* TESTIMONIAL */
+
+#testimonial{
+    background-color: #f7f7f7;
+    padding: 30px 0 60px 0;
+}
+#testimonial .testimonial{
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 35px;
+    background-color: #fff;
+    box-shadow: 0px 2px 12px rgb(0 0 0 / 8%);
+}
+#testimonial .testimonial .italic{
+    padding: 0 10px;
+    color: #4d4643;
+}
+#testimonial .testimonial i{
+    color: #9999997d;
+}
+#testimonial img{
+    width: 93px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 12px;
+    border: 7px solid #fff;
+}
+#testimonial .card-text-p{
+    line-height: 30px;
+    padding: 0 10px;
+}
+#testimonial .card-title{
+    margin-bottom: 2px;
+    color: #111;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+#testimonial .text-muted{
+    color: #999;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;   
+}
