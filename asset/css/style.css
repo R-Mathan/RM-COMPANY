@@ -358,3 +358,100 @@ body{
     font-size: 14px;
     font-family: "Roboto", sans-serif;   
 }
+
+/* Features */
+
+#features h2{
+    color: #222;
+    margin: 0 auto;
+    font-weight: bolder;
+}
+#features h2::after{
+    content: '';
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin: 20px 0 30px;
+    background: #1bbd36;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+#features .fea-box{
+    padding: 20px;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+#features i{
+    font-size: 26px;
+    padding: 3px 10px 0 0;
+}
+#features a{
+    margin: 0;
+    color: #222;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+
+#price{
+    padding: 80px 0;
+}
+#price ul{
+    padding: 0;
+    list-style: none;
+    line-height: 40px;
+}
+#price .body-text{
+    padding: 10px 0;
+}
+#price .card-body{
+    padding: 0;
+}
+#price .card-title{
+    padding: 15px 0;
+    color: #847872;
+    background: #f8f8f8;
+}
+#price h6{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+#price .active{
+    background: #1bbd36;
+    color: #fff;
+}
+#price .btm{
+    padding: 15px 0;
+    background: #f8f8f8;
+}
+#price .btn{
+    width: 120px;
+    color: #fff;
+    background: #1bbd36;
+}
+#price span{
+    font-size: 16px;
+    position: relative;
+    top: -2px;
+    left: -3px;
+}
+#price .muted{
+    color: #bababa;
+}
+#price .na{
+    text-decoration: line-through;
+}
+#price h4{
+    font-size: 36px;
+    color: #1bbd36;
+    font-family: "Poppins", sans-serif;
+}
+#price h4 sup {
+    font-size: 20px;
+    top: -15px;
+    left: 6px;
+    color: #1bbd36;
+}
